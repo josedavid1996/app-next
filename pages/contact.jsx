@@ -1,10 +1,12 @@
-import Head from 'next/head';
+import React from 'react';
+// import Layout from '../components/Layout';
 import Layout, { siteTitle } from '../components/Layout';
+import Head from 'next/head';
 import utilStyles from '../styles/utils.module.css';
 
-export default function Home() {
+const Contact = ({}) => {
   return (
-    <Layout home title="Home | Página de inicio">
+    <Layout home title="Contact | Página de inicio">
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -17,4 +19,6 @@ export default function Home() {
       </section>
     </Layout>
   );
-}
+};
+
+export default Contact;

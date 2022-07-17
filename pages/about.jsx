@@ -1,10 +1,12 @@
-import Head from 'next/head';
+import React from 'react';
+// import Layout from '../components/Layout';
 import Layout, { siteTitle } from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
+import Head from 'next/head';
 
-export default function Home() {
+const about = () => {
   return (
-    <Layout home title="Home | Página de inicio">
+    <Layout title="About | Página de inicio">
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -17,4 +19,6 @@ export default function Home() {
       </section>
     </Layout>
   );
-}
+};
+
+export default about;
