@@ -1,6 +1,8 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/Layout';
-import utilStyles from '../styles/utils.module.css';
+import Head from 'next/head'
+import Image from 'next/image'
+
+import Layout, { siteTitle } from '../components/Layout'
+import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
+      <Image src="/logo-192.png" width="300px" height="300px" alt="imagen" />
     </Layout>
-  );
+  )
 }

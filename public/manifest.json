@@ -1,0 +1,20 @@
+{
+  "name": "blogs",
+  "icons": [
+    {
+      "src": "/logo-48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "theme_color": "#0f0",
+  "background_color": "#0f0",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
